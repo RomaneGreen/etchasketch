@@ -1,0 +1,56 @@
+.title {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  font-family: 'Lily Script One', cursive;
+}
+
+.btn {
+  text-align: center;
+  margin: 40px 0px 20px 0;
+}
+
+#btn1,#btn2 {
+  border: 2px solid black;
+  height: 40px;
+  border-radius: 4px;
+  font: bold 16px Serif;
+}
+
+body {
+  background: #093028;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #237A57, #093028);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #237A57, #093028);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grid {
+	height: 400px;
+  width: 400px;
+  background-color: red;
+  position: fixed;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.box {
+		height: 25px;
+	  width: 25px;
+	  background-color: white;
+	  border: 1px solid black;
+	  float: left;
+	  box-sizing: border-box;
+    border-style: hidden;
+}
+
+.main{
+float: left;
+position: relative;
+left: 35%;
+}
+.fix{
+  float: left;
+  position: relative;
+  left: 70%;
+}
