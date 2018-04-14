@@ -15,12 +15,25 @@
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="modernizr.js"></script>
+
+  <script>
+
+      if (Modernizr.canvas){
+       alert("Canvas is availble")
+     }else {
+       alert('no');
+     }
+     
+     </script>
+
 
 </head>
 
 <body>
   <h1 class="title">Jetch-A-Sketch</h1>
 
+  
 
 
   <div class="btn">
@@ -39,6 +52,7 @@
   <script src="jquery-3.2.1.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   <script src="script.js" type="text/javascript"></script>
+  
 </body>
 
 </html>
